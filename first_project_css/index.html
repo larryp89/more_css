@@ -1,30 +1,84 @@
-<html lang="en"><head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-  <style type="text/css">@font-face{font-family:Gilroy;font-style:normal;font-weight:100 400;src:url(https://pouch-global-font-assets.s3.eu-central-1.amazonaws.com/Gilroy-Medium.otf)}@font-face{font-family:Gilroy;font-style:normal;font-weight:500 900;src:url(https://pouch-global-font-assets.s3.eu-central-1.amazonaws.com/Gilroy-Bold.otf)}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;src:url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-solid-900.woff2) format("woff2")}@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:normal;src:url(https://use.fontawesome.com/releases/v5.6.3/webfonts/fa-brands-400.woff2) format("woff2")}
-</style></head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
   <body>
-    <hero>
-      <header class="navigation">
-        <a class="logo">Header Logo</a>
-        <a href="#">Header link 1</a>
-        <a href="#">Header link 2</a>
-        <a href="#">Header link 3</a>
-      </header>
-      <main class="main">
-        <div class="title">
-        <h1>This website is awesome</h1>
-        <p>
-          This website has some subext that goes here under the main title. It's
-          a smaller font and the color is lower contrast.
-        </p>
-        <button>Sign up</button>
-    </div>
-        <div class="placeholder">This is a place hodler for an image</div>
+    <header>
+      <nav class="nav">
+        <span class="logo">Header Logo</span>
+        <div class="header-links">
+          <a href="#">Header link One</a>
+          <a href="#">Header link Two</a>
+          <a href="#">Header link Three</a>
+        </div>
+      </nav>
+      <main>
+        <div class="main-left">
+          <h1>This website is awesome</h1>
+          <p>
+            This website has some subset text that goes here under the main
+            title It's smaller font and the colour is lowercontrast.
+          </p>
+          <button>Sign up.</button>
+        </div>
+        <div class="main-right">
+          <p>Placeholder for an image</p>
+        </div>
       </main>
-    </hero>
-  
+    </header>
+    <section class="midline">
+      <h2>Some random Information.</h2>
+      <div class="container">
+        <div class="box">
+          <img src="../christopher-gower-m_HRfLhgABo-unsplash.jpg" />
+          <p class="text">
+            This is some subtext under an illustration or image.
+          </p>
+        </div>
+        <div class="box">
+          <img src="../christopher-gower-m_HRfLhgABo-unsplash.jpg" />
+          <p class="text">
+            This is some subtext under an illustration or image.
+          </p>
+        </div>
+        <div class="box">
+          <img src="../christopher-gower-m_HRfLhgABo-unsplash.jpg" />
+          <p class="text">
+            This is some subtext under an illustration or image.
+          </p>
+        </div>
+        <div class="box">
+          <img src="../christopher-gower-m_HRfLhgABo-unsplash.jpg" />
+          <p class="text">
+            This is some subtext under an illustration or image.
+          </p>
+        </div>
+      </div>
+    </section>
 
-<div id="pouch-root" style="display: block;"></div></body></html>
+    <section>
+      <blockquote class="quote">
+        <p>
+          This is an inspiring quote, or a testimonial from a customer. Maybe
+          t's just filling up space, or maybe people will actually read it. Who
+          knows? All I know is that it looks nice.
+        </p>
+        <footer>-Thor, God of Thunder</footer>
+      </blockquote>
+    </section>
+
+    <section class="call-to-action">
+      <div class="action">
+        <p>Call to action! It's time!</p>
+        <p>Sign up for our product by clicking that button right over there!</p>
+        <div class="sign-up">
+          <button>Sign up</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
